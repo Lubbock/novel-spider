@@ -4,7 +4,7 @@ import scrapy
 from novelSpider.items import NovelspiderItem
 class NovelSpider(Spider):
     name="novelSpider"
-    start_urls=["https://www.soshuw.com/WoDiDiZiJieShiTianJiao/"]
+    start_urls=["https://www.soshuw.com/ShiSiRuGuiWeiJunZi/"]
     domain_name = "https://www.soshuw.com/"
     allowed_domains = ['www.soshuw.com']
     headers = {
